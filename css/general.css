@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem !important;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 153rem !important;
+  margin: auto !important;
+}
+
+/* FLEX */
+
+.d-flex {
+  display: flex;
+}
+
+/* ALIGN ITEMS */
+.align-items-ct {
+  align-items: center;
+}
+
+/* JUSTIFY ITEMS */
+.justify-items-ct {
+  justify-items: center;
+}
+
+/* GRIDS */
+.grid-colmns {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-2-colmns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-colmns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-colmns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* GAPS */
+
+.gap-sm {
+  gap: 2rem;
+}
+
+.gap-md {
+  gap: 4rem;
+}
+
+.gap-bg {
+  gap: 8rem;
+}
+
+/* NAV_LINK */
+.nav-link-1 {
+  text-decoration: none;
+  color: inherit;
+  /* font-size: 1.4rem; */
+}
+
+.font-bold {
+  font-weight: 500 !important;
+}
+
+/* BORDERS */
+.border {
+  border: 0.1rem solid #33333338;
+}
+
+.border-right {
+  border-right: 0.1rem solid #33333338;
+}
+
+.box-shadow {
+  box-shadow: 0 0 0.8rem rgba(36, 35, 35, 0.178);
+}
+
+.border-radius {
+  border-radius: 50px;
+}
+
+.border-radius-sm {
+  border-radius: 15px;
+}
+
+/* FONT-FADE */
+.font-fade {
+  color: #999;
+}
+
+/* DISPLAYS */
+.d-inline-block {
+  display: inline-block;
+}
+
+/* PADDINGS */
+
+.padding-r {
+  padding-right: 3rem;
+}
