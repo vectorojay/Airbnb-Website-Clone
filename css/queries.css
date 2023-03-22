@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo {
+    display: none !important;
+  }
+
+  .nav-items-2 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

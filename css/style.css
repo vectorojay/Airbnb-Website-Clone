@@ -19,6 +19,7 @@
   font-size: 2.5rem !important;
   font-weight: 600;
   letter-spacing: -1px;
+  display: flex;
 }
 
 .logo-img {
@@ -32,6 +33,10 @@
   padding: 1rem 2rem;
   align-items: center;
   cursor: pointer;
+}
+
+.nav-items-2 {
+  display: flex;
 }
 
 .search-icon {
@@ -225,7 +230,6 @@
   width: 10rem;
   height: 5rem;
   margin-left: 6rem;
-  /* margin-left: 4rem; */
   padding: 1rem !important;
   justify-content: center;
 }
