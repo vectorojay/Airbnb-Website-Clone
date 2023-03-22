@@ -24,8 +24,35 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-lets {
+    padding: 0 3rem !important;
+  }
+}
+
+@media (max-width: 450px) {
   .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  .section-lets {
+    padding: 0 2rem !important;
+  }
+
+  .any-week {
+    display: none;
+  }
+
+  .add-guests-link {
+    display: none !important;
+  }
+
+  .nav-items {
+    gap: 40px;
+    max-width: 100%;
   }
 }
