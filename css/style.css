@@ -77,6 +77,10 @@
   cursor: pointer;
 }
 
+.menu-div-2 {
+  display: flex;
+}
+
 .menu-icon {
   height: 2rem;
   width: 2rem;

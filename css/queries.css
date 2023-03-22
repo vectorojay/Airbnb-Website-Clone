@@ -55,4 +55,12 @@
     gap: 40px;
     max-width: 100%;
   }
+
+  .menu-div-2 {
+    display: none;
+  }
+
+  .nxt-btn {
+    right: 1%;
+  }
 }
